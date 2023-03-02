@@ -6,7 +6,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
-.login-box{
+.box{
     width: 320px;
     height: 420px;
     background: white;
@@ -37,11 +37,11 @@ label{
     font-weight: bold;
     display: block;
 }
-.login-box input{
+.box input{
     width: 100%;
     margin-bottom: 20px;
 }
-.login-box input[type="text"]{
+.box input[type="text"]{
     border: none;
     border-bottom: 2px solid black;
     background: transparent;
@@ -49,7 +49,7 @@ label{
     height: 30px;
     font-size: 16px;
 }
-.login-box input[type="password"]{
+.box input[type="password"]{
     border: none;
     border-bottom: 2px solid black;
     background: transparent;
@@ -57,20 +57,23 @@ label{
     height: 30px;
     font-size: 16px;
 }
-.login-box input[type="submit"]{
-    border: none;
-    outline: none;
-    height: 40px;
-    background: #DBAD10;
-    font-size: 18px;
+.boton{
+    text-decoration: none;
+    padding: 7px 40%;
     border-radius: 20px;
+    color: black;
+    background: #DBAD10;
 }
-.login-box a{
+.otros label[for="olvido"]{
+    padding-top: 7%;
+}
+.otros a{
+    padding-top: 20%;
     text-decoration: none;
     font-size: 15px;
     line-height: 30px;
     text-align: center;
 }
-.login-box a:hover{
+.box a:hover{
     color: rgb(21, 94, 94);
 }

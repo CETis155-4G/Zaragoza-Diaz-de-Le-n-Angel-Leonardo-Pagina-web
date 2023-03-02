@@ -5,10 +5,10 @@
         <title>
             Login
         </title>
-        <link rel="stylesheet" href="registro/styles/styles2.css">
+        <link rel="stylesheet" href="styles/style.css">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">    </head>
     <body>
-        <div class="login-box">
+        <div class="box">
             <img class="avatar" src="images/profile.png" alt="profile picture">
             <h1>
                 Inicia sesión
@@ -21,11 +21,15 @@
                 <label for="contraseña">Contraseña</label>
                 <input type="password" placeholder="Ingrese su contraseña">
                 <!--Boton-->
-                <input type="submit" value="Acceder">
+                <a href="registro/pagina_inicio/index.html" class="boton">Acceder</a>
+                <br>
                 <!--Hipervinculos-->
-                <a href="registro/recupera.html">¿Olvidaste tu contraseña?</a>
-                <label for="Registro">Si aun no cuentas con un usuario</label>
-                <a href="registro/registro.html">Registrate aqui</a>
+                <div class="otros">
+                    <label for="olvido">¿Olvidaste tu contraseña?</label>
+                    <a href="registro/recupera.html">Click aqui</a>
+                    <label for="Registro">Si aun no cuentas con un usuario</label>
+                    <a href="registro/registro.html">Registrate aqui</a>
+                </div>
             </form>
         </div>
     </body>

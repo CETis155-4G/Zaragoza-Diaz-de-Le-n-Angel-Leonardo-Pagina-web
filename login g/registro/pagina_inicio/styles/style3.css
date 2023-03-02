@@ -1,0 +1,70 @@
+*{
+    /*este es el tipo de letra que utilizara la pagina*/
+    font-family: 'Nunito Sans', sans-serif;
+}
+/*este elemento se aplica a todo el body*/
+body{
+    background-color: white;
+    font-size: 26px;
+    padding: 0;
+    margin: 0;
+    margin-left: var(--width-colapsed);
+}
+/*esto solo aplica a los elementos a*/
+a{
+    color: black;
+    font-size: 110%;
+    text-decoration: none;
+}
+/*esta parte solo se aplica a listas*/
+li{
+    float: left;
+    list-style: none;
+    padding: 10px;
+    margin-top: 5px;
+}
+/*esto solo se aplica a la parte de los hipervinculos*/
+nav{
+    float: right;
+    text-decoration: none;
+    margin-right: 235px;
+}
+/*cuando el cursor este sobre algun elemento a este cambiara su estilo*/
+li:hover a{
+    color: darkcyan;
+}
+/*todo esto pertenece a la parte de slider*/
+.slider{
+    width: 95;
+    margin: auto;
+    overflow: hidden; /*oculta las imagenes al cambiar de animacion*/
+}
+.slider ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: cambio 10s infinite;
+    animation-direction: alternate;
+}
+.slider li{
+    list-style: none;
+    width: 100%;
+}
+.slider img{
+    width: 100%;
+}
+
+@keyframes cambio{/*tiempo de detencion de las imagenes vistas en pantalla*/
+    /*Tiempo de la primera imagen*/
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}/*tiempo de la imagen de 4 segundos
+    /*Tiempo de la segunda imagen*/
+    25%{margin-left: -100;}
+    45%{margin-left: -100;}
+    /*Tiempo de la tercera imagen*/
+    50%{margin-left: -200;}
+    70%{margin-left: -200;}
+    /*Tiempo de la cuarta imagen*/
+    75%{margin-left: -300;}
+    100%{margin-left: -300;}
+}

@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="styles/styles2.css">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">    </head>
     <body>
-        <div class="registro-box">
+        <div class="box">
             <img class="avatar" src="images/profile.png" alt="profile picture">
             <h1>
                 Registro
@@ -131,11 +131,10 @@
                 <!--Municipio-->
                 <label for="Municipio">Municipio</label>
                 <select name="Seleccione un Municipio">
+                    <option value="Empty" selected>Selecciona un municipio</option>
                     <optgroup label="Aguascalientes">
-                        <option value="Empty" selected>Selecciona un municipio</option>
-                        <optgroup value="México">México</optgroup>
-                        <option value="Estados Unidos">Estados Unidos</option>
-                        <option value="Cánada">Cánada</option>
+                        <option value="Aguascalientes">Aguascalientes</option>
+                        
                     </optgroup>
                 </select>
                 <!--Apellido paterno-->
@@ -145,10 +144,13 @@
                 <label for="Correo">Telefono</label>
                 <input type="text" placeholder="Ingrese su numero de telefono">
                 <!--Boton-->
-                <input type="submit" value="Acceder">
+                <a href="pagina_inicio/index.html" class="boton">Acceder</a>
+                <br>
                 <!--Hipervinculos-->
-                <label for="Registro">Si ya cuentas con un usuario</label>
-                <a href="../login.html">Inicia sesión</a>
+                <label for="Registro">
+                    Si ya tienes una cuenta: 
+                    <a href="../login.html">Inicia sesión</a>
+                </label>
             </form>
         </div>
     </body>

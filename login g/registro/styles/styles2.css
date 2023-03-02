@@ -2,21 +2,21 @@ body{
     margin: 0;
     padding: 0;
     background: url(../images/bg.jpg) no-repeat center top;
-    background-size: cover;
+    background-size: 1360px 1670px;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
-.login-box{
+.box{
     width: 320px;
-    height: 710px;
+    height: 760px;
     background: white;
     top: 50%;
     left: 50%;
     position: absolute;
     transform: translate(-50%, -40%);
     box-sizing: border-box;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 70px;
+    margin-bottom: 70px;
     padding: 70px 30px;
 }
 .avatar{
@@ -39,11 +39,11 @@ label{
     font-weight: bold;
     display: block;
 }
-.login-box input{
+.box input{
     width: 100%;
     margin-bottom: 20px;
 }
-.login-box input[type="text"]{
+.box input[type="text"]{
     border: none;
     border-bottom: 2px solid black;
     background: transparent;
@@ -51,7 +51,7 @@ label{
     height: 20px;
     font-size: 16px;
 }
-.login-box input[type="password"]{
+.box input[type="password"]{
     border: none;
     border-bottom: 2px solid black;
     background: transparent;
@@ -59,22 +59,20 @@ label{
     height: 30px;
     font-size: 16px;
 }
-.login-box input[type="submit"]{
-    margin-top: 7%;
-    border: none;
-    outline: none;
-    height: 40px;
-    background: #DBAD10;
-    font-size: 18px;
+.boton{
+    text-decoration: none;
+    padding: 10px 40%;
     border-radius: 20px;
+    color: black;
+    background: #DBAD10;
 }
-.login-box a{
+.box a{
     text-decoration: none;
     font-size: 15px;
     line-height: 30px;
     text-align: center;
 }
-.login-box a:hover{
+.box a:hover{
     color: rgb(21, 94, 94);
 }
 select{
@@ -86,7 +84,7 @@ select{
     width: 100%;
     font-size: 16px;
 }
-.login-box input[type="date"]{
+.box input[type="date"]{
     border: none;
     border-bottom: 2px solid black;
     background: transparent;
@@ -94,13 +92,13 @@ select{
     height: 30px;
     font-size: 16px;
 }
-.login-box label[for="Estado"]{
+.box label[for="Estado"]{
     padding-top: 7%;
 }
-.login-box label[for="Municipio"]{
+.box label[for="Municipio"]{
     padding-top: 7%;
 }
-.login-box input[type="email"]{
+.box input[type="email"]{
     border: none;
     border-bottom: 2px solid black;
     background: transparent;
